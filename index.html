@@ -10,26 +10,37 @@
     <nav class="navbar">
         <div class="navbar__container">
             <a href="/" id="navbar__logo">Home</a>
-            <div class="navbar__toggle" id="mobile-menu"></div>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span> 
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Products</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Sign Up</a>
+                </li>
+            </ul>
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="/" class="navbar__links">Home</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/about.html" class="navbar__links">About</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/" class="navbar__links">Products</a>
-            </li>
-            <li class="navbar__btn">
-                <a href="/" class="button">Sign Up</a>
-            </li>
-        </ul>
     </nav>
-    
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>TRAVEL</h1>
+                <h2>LIKE A BOSS</h2>
+                <p>you wont regret it.</p>
+                <button class="main__btn"><a href="/">LETS GET FLYING</a></button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
